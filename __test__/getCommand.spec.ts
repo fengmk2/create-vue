@@ -1,4 +1,4 @@
-import { it, describe, expect } from 'vitest'
+import { it, describe, expect } from '@voidzero-dev/vite-plus/test'
 import getCommand from '../utils/getCommand'
 
 describe('getCommand', () => {
