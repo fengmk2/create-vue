@@ -23,7 +23,7 @@
     "snapshot": "zx ./scripts/snapshot.mjs",
     "pretest": "pnpm run build && pnpm run snapshot",
     "test": "zx ./scripts/test.mjs",
-    "test:unit": "vitest",
+    "test:unit": "vite test",
     "preversion": "git fetch && git status -uno | grep -q 'Your branch is up to date'",
     "postversion": "zx ./scripts/postversion.mjs",
     "prepublishOnly": "pnpm run build"
@@ -53,8 +53,9 @@
     "prettier": "3.7.4",
     "rolldown": "1.0.0-beta.58",
     "rollup-plugin-license": "^3.6.0",
-    "vitest": "^4.0.16",
-    "zx": "^8.8.5"
+    "vitest": "catalog:",
+    "zx": "^8.8.5",
+    "@voidzero-dev/vite-plus": "catalog:"
   },
   "lint-staged": {
     "*.{js,ts,vue,json}": [
