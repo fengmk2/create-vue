@@ -8,6 +8,6 @@
   "devDependencies": {
     "@vue/test-utils": "^2.4.6",
     "jsdom": "^27.4.0",
-    "@voidzero-dev/vite-plus": "test"
+    "@voidzero-dev/vite-plus": "catalog:"
   }
 }
